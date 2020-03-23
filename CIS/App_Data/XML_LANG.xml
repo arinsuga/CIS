@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XML_LANGUAGE>
+
+  <HCIS>
+    <ID>Contact Information System</ID>
+    <EN>Contact Information System</EN>
+  </HCIS>
+
+  <BTN_NEW>
+    <ID>New</ID>
+    <EN>New</EN>
+  </BTN_NEW>
+
+  <BTN_EDIT>
+    <ID>Edit</ID>
+    <EN>Edit</EN>
+  </BTN_EDIT>
+
+  <BTN_DELETE>
+    <ID>Delete</ID>
+    <EN>Delete</EN>
+  </BTN_DELETE>
+
+  <BTN_SAVE>
+    <ID>Save</ID>
+    <EN>Save</EN>
+  </BTN_SAVE>
+
+  <BTN_RESET>
+    <ID>Clear Screen</ID>
+    <EN>Clear Screen</EN>
+  </BTN_RESET>
+
+  <BTN_SAVE>
+    <ID>Save</ID>
+    <EN>Save</EN>
+  </BTN_SAVE>
+
+  <BTN_SEARCH>
+    <ID>Search</ID>
+    <EN>Search</EN>
+  </BTN_SEARCH>
+
+  <BTN_CLOSE>
+    <ID>Close</ID>
+    <EN>Close</EN>
+  </BTN_CLOSE>
+
+  <BTN_BROWSE>
+    <ID>Display Data</ID>
+    <EN>Display Data</EN>
+  </BTN_BROWSE>
+
+  <BTN_CHANGE_PSWD>
+    <ID>Change Password</ID>
+    <EN>Change Password</EN>
+  </BTN_CHANGE_PSWD>
+
+  <BTN_CANCEL>
+    <ID>Cancel</ID>
+    <EN>Cancel</EN>
+  </BTN_CANCEL>
+
+  <BTN_UPLOAD_PHOTO>
+    <ID>Change Photo</ID>
+    <EN>Change Photo</EN>
+  </BTN_UPLOAD_PHOTO>
+
+  <BTN_RESET_FIELD>
+    <ID>Clear</ID>
+    <EN>Clear</EN>
+  </BTN_RESET_FIELD>
+
+  <BTN_VIEW_DATA>
+    <ID>View Data</ID>
+    <EN>Tampilkan Data</EN>
+  </BTN_VIEW_DATA>
+
+  <MSGBX_TTL_INFO>
+    <ID>Informasi</ID>
+    <EN>Information</EN>
+  </MSGBX_TTL_INFO>
+
+  <MSGBX_TTL_CONF>
+    <ID>Konfirmasi</ID>
+    <EN>Confirmation</EN>
+  </MSGBX_TTL_CONF>
+
+  <MSGBX_TTL_WAR>
+    <ID>Peringatan</ID>
+    <EN>Warning</EN>
+  </MSGBX_TTL_WAR>
+
+  <MSGBX_TTL_ERR>
+    <ID>System Failure</ID>
+    <EN>Kesalahan System</EN>
+  </MSGBX_TTL_ERR>
+
+  <MSG_CRUD_NEW_SUCCESS>
+    <ID>Data baru berhasil disimpan</ID>
+    <EN>Save new data success</EN>
+  </MSG_CRUD_NEW_SUCCESS>
+
+  <MSG_CRUD_NEW_FAILED>
+    <ID>Data baru gagal disimpan</ID>
+    <EN>save new data failed</EN>
+  </MSG_CRUD_NEW_FAILED>
+
+  <MSG_CRUD_NEW_PROCESS>
+    <ID>Sedang manambah data baru</ID>
+    <EN>Saving new data on progress</EN>
+  </MSG_CRUD_NEW_PROCESS>
+
+  <MSG_CRUD_UPD_SUCCESS>
+    <ID>Perubahan data berhasil disimpan</ID>
+    <EN>Update data success</EN>
+  </MSG_CRUD_UPD_SUCCESS>
+
+  <MSG_CRUD_UPD_FAILED>
+    <ID>Perubahan data gagal disimpan</ID>
+    <EN>Update data failed</EN>
+  </MSG_CRUD_UPD_FAILED>
+
+  <MSG_CRUD_UPD_PROCESS>
+    <ID>Sedang menyimpan Perubahan data</ID>
+    <EN>Update data on progress</EN>
+  </MSG_CRUD_UPD_PROCESS>
+
+  <MSG_CRUD_DEL_SUCCESS>
+    <ID>Data berhasil dihapus</ID>
+    <EN>Delete data success</EN>
+  </MSG_CRUD_DEL_SUCCESS>
+
+  <MSG_CRUD_DEL_FAILED>
+    <ID>Data gagal dihapus</ID>
+    <EN>Delete data failed</EN>
+  </MSG_CRUD_DEL_FAILED>
+
+  <MSG_CRUD_DEL_PROCESS>
+    <ID>Sedang melakukan penghapusan data</ID>
+    <EN>Delete data on progress</EN>
+  </MSG_CRUD_DEL_PROCESS>
+
+  <MSG_CRUD_SAVE_SUCCESS>
+    <ID>Data berhasil disimpan</ID>
+    <EN>Save data success</EN>
+  </MSG_CRUD_SAVE_SUCCESS>
+
+  <MSG_CRUD_SAVE_FAILED>
+    <ID>Data gagal disimpan</ID>
+    <EN>Save data failed</EN>
+  </MSG_CRUD_SAVE_FAILED>
+
+  <MSG_CRUD_SAVE_PROCESS>
+    <ID>Data sedang disimpan</ID>
+    <EN>Save data on progress</EN>
+  </MSG_CRUD_SAVE_PROCESS>
+
+  <MSG_DS_SUCCESS>
+    <ID>Pengambilan data berhasil</ID>
+    <EN>Populate data success</EN>
+  </MSG_DS_SUCCESS>
+
+  <MSG_DS_FAILED>
+    <ID>Pengambilan data gagal</ID>
+    <EN>Populate data failed</EN>
+  </MSG_DS_FAILED>
+
+  <MSG_DS_PROCESS>
+    <ID>Sedang proses pengambilan data</ID>
+    <EN>Populate data on progress</EN>
+  </MSG_DS_PROCESS>
+
+  <MSG_INFO_DATA_EXIST>
+    <ID>Data sudah ada</ID>
+    <EN>Data already exist</EN>
+  </MSG_INFO_DATA_EXIST>
+
+  <MSG_INFO_WAIT>
+    <ID>Harap tunggu</ID>
+    <EN>Please wait</EN>
+  </MSG_INFO_WAIT>
+
+  <MSG_INFO_MANDATORY>
+    <ID>Field tidak boleh kosong</ID>
+    <EN>Field is mandatory</EN>
+  </MSG_INFO_MANDATORY>
+
+  <MSG_INFO_REDUNDANCY>
+    <ID>Data sudah digunakan</ID>
+    <EN>Data already in use</EN>
+  </MSG_INFO_REDUNDANCY>
+
+  <MSG_INFO_DATA_INUSE>
+    <ID>Data sudah digunakan</ID>
+    <EN>Data already in use</EN>
+  </MSG_INFO_DATA_INUSE>
+
+  <MSG_INFO_MANDATORY_CHECK>
+    <ID>Pengecekan field wajib diisi</ID>
+    <EN>Mandatory field checking</EN>
+  </MSG_INFO_MANDATORY_CHECK>
+
+  <MSG_INFO_REDUNDANCY_CHECK>
+    <ID>Pengecekan data ganda</ID>
+    <EN>Redundancy checking</EN>
+  </MSG_INFO_REDUNDANCY_CHECK>
+
+  <MSG_INFO_INVALID_ENTRY>
+    <ID>Terjadi kesalahan Entry pada field berwarna merah</ID>
+    <EN>Invalid data entry, please see red color field</EN>
+  </MSG_INFO_INVALID_ENTRY>
+
+  <MSG_INFO_LOAD_PROCESS>
+    <ID>Sedang proses data</ID>
+    <EN>Loading data on progress</EN>
+  </MSG_INFO_LOAD_PROCESS>
+
+  <MSG_INFO_LOGIN_FAILED>
+    <ID>
+      &lt;b&gt; Login ditolak : (Penyebab) &lt;/b&gt;
+      &lt;BR&gt; =====================
+      &lt;BR&gt; 1) User ID salah.
+      &lt;BR&gt; 2) Password salah.
+      &lt;BR&gt; 3) Akses user terbatas.
+      &lt;BR&gt; Silahkan hubungi sistem admin untuk informasi lebih lanjut.
+    </ID>
+    <EN>
+      &lt;b&gt; Login rejected : (Reason) &lt;/b&gt;
+      &lt;BR&gt; ====================
+      &lt;BR&gt; 1) Invalid User ID.
+      &lt;BR&gt; 2) Invalid Password.
+      &lt;BR&gt; 3) User access denied.
+      &lt;BR&gt; Please contact System Admin for further information.
+    </EN>
+  </MSG_INFO_LOGIN_FAILED>
+
+  <MSG_INFO_LOGIN_SUCCESS>
+    <ID>Login berhasil</ID>
+    <EN>Login succeded</EN>
+  </MSG_INFO_LOGIN_SUCCESS>
+
+  <MSG_INFO_LOGIN_CHANGE_PSWD_FAILED>
+    <ID>Perubahan password gagal</ID>
+    <EN>Change password failed</EN>
+  </MSG_INFO_LOGIN_CHANGE_PSWD_FAILED>
+
+  <MSG_INFO_LOGIN_CHANGE_PSWD_SUCCESS>
+    <ID>Perubahan password berhasil</ID>
+    <EN>Change password succeded</EN>
+  </MSG_INFO_LOGIN_CHANGE_PSWD_SUCCESS>
+
+  <MSG_INFO_LOGIN_CHANGE_PSWD_WRONG_OLDPSWD>
+    <ID>Password lama salah</ID>
+    <EN>Wrong old password</EN>
+  </MSG_INFO_LOGIN_CHANGE_PSWD_WRONG_OLDPSWD>
+
+  <MSG_INFO_LOGIN_CHANGE_PSWD_DIFF_NEW_PSWD>
+    <ID>Password baru tidak sama</ID>
+    <EN>New password not match</EN>
+  </MSG_INFO_LOGIN_CHANGE_PSWD_DIFF_NEW_PSWD>
+
+  <MSG_INFO_LOGIN_CHANGE_PSWD_INVALID_USRID>
+    <ID>User ID salah</ID>
+    <EN>Invalid user ID</EN>
+  </MSG_INFO_LOGIN_CHANGE_PSWD_INVALID_USRID>
+
+  <MSG_INFO_LOGIN_MDLE_RESTRICTED>
+    <ID>Akses ke modul ini ditolak</ID>
+    <EN>Access denied for thi module</EN>
+  </MSG_INFO_LOGIN_MDLE_RESTRICTED>
+
+  <MSG_INFO_LOGIN_ONPROGRESS>
+    <ID>Sedang proses login...</ID>
+    <EN>Login in progress…</EN>
+  </MSG_INFO_LOGIN_ONPROGRESS>
+
+  <DLGBOX_LKP_TTL>
+    <ID>Lihat Data</ID>
+    <EN>Lookup Data</EN>
+  </DLGBOX_LKP_TTL>
+
+  <DLGBOX_LKP_TTL_RSRC_TITLE_LANG_ID>
+    <ID>Lihat Data : Resource</ID>
+    <EN>Lookup Data : Resource</EN>
+  </DLGBOX_LKP_TTL_RSRC_TITLE_LANG_ID>
+
+  <DLGBOX_LKP_LBL_SEARCH_LANG_ID>
+    <ID>Cari Data</ID>
+    <EN>Search Value</EN>
+  </DLGBOX_LKP_LBL_SEARCH_LANG_ID>
+
+  <DLGBOX_LKP_LBL_FILTER_LANG_ID>
+    <ID>Saring</ID>
+    <EN>Filter</EN>
+  </DLGBOX_LKP_LBL_FILTER_LANG_ID>
+
+  <DLGBOX_LKP_LBL_FOOTER_PAGE_PFX_LANG_ID>
+    <ID>Menampilkan</ID>
+    <EN>Showing</EN>
+  </DLGBOX_LKP_LBL_FOOTER_PAGE_PFX_LANG_ID>
+
+  <DLGBOX_LKP_LBL_FOOTER_PAGE_MID1_LANG_ID>
+    <ID>s/d</ID>
+    <EN>To</EN>
+  </DLGBOX_LKP_LBL_FOOTER_PAGE_MID1_LANG_ID>
+
+  <DLGBOX_LKP_LBL_FOOTER_PAGE_MID2_LANG_ID>
+    <ID>Dari</ID>
+    <EN>Of</EN>
+  </DLGBOX_LKP_LBL_FOOTER_PAGE_MID2_LANG_ID>
+
+  <DLGBOX_LKP_LBL_FOOTER_PAGE_SFX_LANG_ID>
+    <ID>Data</ID>
+    <EN>Entries</EN>
+  </DLGBOX_LKP_LBL_FOOTER_PAGE_SFX_LANG_ID>
+
+  <DLGBOX_LKP_LBL_HEADER_PAGE_PFX_LANG_ID>
+    <ID>Tampilkan</ID>
+    <EN>Show</EN>
+  </DLGBOX_LKP_LBL_HEADER_PAGE_PFX_LANG_ID>
+
+  <DLGBOX_LKP_LBL_HEADER_PAGE_SFX_LANG_ID>
+    <ID>Data per halaman</ID>
+    <EN>Records per page</EN>
+  </DLGBOX_LKP_LBL_HEADER_PAGE_SFX_LANG_ID>
+
+  <DLGBOX_LKP_CMD_RESET_LANG_ID>
+    <ID>Bersihkan</ID>
+    <EN>Reset</EN>
+  </DLGBOX_LKP_CMD_RESET_LANG_ID>
+
+  <DLGBOX_LKP_MSG_ZRECORD1_LANG_ID>
+    <ID>Data tidak ditemukan</ID>
+    <EN>Data not found</EN>
+  </DLGBOX_LKP_MSG_ZRECORD1_LANG_ID>
+
+  <DLGBOX_LKP_MSG_ZRECORD2_LANG_ID>
+    <ID>Menampilkan 0 s/d 0 dari 0 data</ID>
+    <EN>Showing 0 to 0 of 0 records</EN>
+  </DLGBOX_LKP_MSG_ZRECORD2_LANG_ID>
+
+  <DLGBOX_LKP_TTL_HCIS_RESCONTACT>
+    <ID>Lihat Data : Kontak</ID>
+    <EN>Lookup Data : Contact</EN>
+  </DLGBOX_LKP_TTL_HCIS_RESCONTACT>
+
+  <DLGBOX_LKP_TTL_HCIS_COUNTRY>
+    <ID>Lihat Data : Negara</ID>
+    <EN>Lookup Data : Country</EN>
+  </DLGBOX_LKP_TTL_HCIS_COUNTRY>
+
+  <DLGBOX_LKP_TTL_HCIS_CITY>
+    <ID>Lihat Data : Kota</ID>
+    <EN>Lookup Data : City</EN>
+  </DLGBOX_LKP_TTL_HCIS_CITY>
+
+  <DLGBOX_LKP_TTL_HCIS_PRODCTGRY>
+    <ID>Lihat Data : Jenis</ID>
+    <EN>Lookup Data : Classsification</EN>
+  </DLGBOX_LKP_TTL_HCIS_PRODCTGRY>
+
+  <DLGBOX_LKP_TTL_HCIS_PRODBRAND>
+    <ID>Lihat Data : Merk</ID>
+    <EN>Lookup Data : Brand</EN>
+  </DLGBOX_LKP_TTL_HCIS_PRODBRAND>
+
+  <DLGBOX_LKP_TTL_HCIS_PRODTYPE>
+    <ID>Lihat Data : Tipe</ID>
+    <EN>Lookup Data : Type</EN>
+  </DLGBOX_LKP_TTL_HCIS_PRODTYPE>
+
+  <LKP_ID>
+    <ID>Kode</ID>
+    <EN>ID</EN>
+  </LKP_ID>
+
+  <LKP_DESC>
+    <ID>Deskripsi</ID>
+    <EN>Description</EN>
+  </LKP_DESC>
+
+  <FRM_CRUD_AC_CHANGE_PASSWORD>
+    <ID>Ganti Password</ID>
+    <EN>Change Password</EN>
+  </FRM_CRUD_AC_CHANGE_PASSWORD>
+
+  <HIST_ACT_DESC1_NEW>
+    <ID>Tambah data baru</ID>
+    <EN>Add new data</EN>
+  </HIST_ACT_DESC1_NEW>
+
+  <HIST_ACT_DESC1_UPD>
+    <ID>Rubah data</ID>
+    <EN>Update data</EN>
+  </HIST_ACT_DESC1_UPD>
+
+  <HIST_ACT_DESC1_DEL>
+    <ID>Hapus data</ID>
+    <EN>Delete data</EN>
+  </HIST_ACT_DESC1_DEL>
+
+  <ADTRL_WKS>
+    <ID>Audit Workstation</ID>
+    <EN>Audit Workstation</EN>
+  </ADTRL_WKS>
+
+  <ADTRL_IP>
+    <ID>Audit IP</ID>
+    <EN>Audit IP</EN>
+  </ADTRL_IP>
+
+  <ADTRL_USR>
+    <ID>Audit User</ID>
+    <EN>Audit User</EN>
+  </ADTRL_USR>
+
+  <ADTRL_PRG>
+    <ID>Audit Program</ID>
+    <EN>Audit Program</EN>
+  </ADTRL_PRG>
+
+  <ADTRL_DT>
+    <ID>Audit Date</ID>
+    <EN>Audit Date</EN>
+  </ADTRL_DT>
+
+  <RSEQNO>
+    <ID>Seq. No</ID>
+    <EN>Seq. No</EN>
+  </RSEQNO>
+
+  <RUID>
+    <ID>RUID</ID>
+    <EN>RUID</EN>
+  </RUID>
+
+  <DTA_STS>
+    <ID>Data Status</ID>
+    <EN>Data Status</EN>
+  </DTA_STS>
+
+  <ACT_TYPE>
+    <ID>Action Type</ID>
+    <EN>Action Type</EN>
+  </ACT_TYPE>
+
+  <IMG_SRC>
+    <ID>Image</ID>
+    <EN>Image</EN>
+  </IMG_SRC>
+
+  <RES_TYPE>
+    <ID>Resource Type</ID>
+    <EN>Resource Type</EN>
+  </RES_TYPE>
+
+  <RES_SUBTYPE>
+    <ID>Resource Sub Type</ID>
+    <EN>Resource Sub Type</EN>
+  </RES_SUBTYPE>
+
+  <RES_ID>
+    <ID>ID</ID>
+    <EN>ID</EN>
+  </RES_ID>
+
+  <RES_NM>
+    <ID>Name</ID>
+    <EN>Name</EN>
+  </RES_NM>
+
+  <RES_NMX1>
+    <ID>Nama 1</ID>
+    <EN>Name 1</EN>
+  </RES_NMX1>
+
+  <RES_NMX2>
+    <ID>Nama 2</ID>
+    <EN>Name 2</EN>
+  </RES_NMX2>
+
+  <RES_NMX3>
+    <ID>Nama 3</ID>
+    <EN>Name 3</EN>
+  </RES_NMX3>
+
+  <PHN1>
+    <ID>Telepon 1</ID>
+    <EN>Phone 1</EN>
+  </PHN1>
+
+  <PHN2>
+    <ID>Telepon 2</ID>
+    <EN>Phone 2</EN>
+  </PHN2>
+
+  <PHN3>
+    <ID>Telepon 3</ID>
+    <EN>Phone 3</EN>
+  </PHN3>
+
+  <FAX>
+    <ID>Fax</ID>
+    <EN>Fax</EN>
+  </FAX>
+
+  <MAIL>
+    <ID>Email</ID>
+    <EN>Email</EN>
+  </MAIL>
+
+  <WEBSITE>
+    <ID>Website</ID>
+    <EN>Website</EN>
+  </WEBSITE>
+
+  <CNTRY_RUID>
+    <ID>Negara</ID>
+    <EN>Country</EN>
+  </CNTRY_RUID>
+
+  <CITY_RUID>
+    <ID>Kota</ID>
+    <EN>City</EN>
+  </CITY_RUID>
+
+  <ZIP>
+    <ID>Kode Pos</ID>
+    <EN>Zip</EN>
+  </ZIP>
+
+  <ADDR1>
+    <ID>Alamat 1</ID>
+    <EN>Address 1</EN>
+  </ADDR1>
+
+  <ADDR2>
+    <ID>Alamat 2</ID>
+    <EN>Address 2</EN>
+  </ADDR2>
+
+  <ADDR3>
+    <ID>Alamat 3</ID>
+    <EN>Address 3</EN>
+  </ADDR3>
+
+  <ADDR4>
+    <ID>Alamat 4</ID>
+    <EN>Address 4</EN>
+  </ADDR4>
+
+  <ADDR5>
+    <ID>Alamat 5</ID>
+    <EN>Address 5</EN>
+  </ADDR5>
+
+  <CP1_NM>
+    <ID>Nama</ID>
+    <EN>Name</EN>
+  </CP1_NM>
+
+  <CP1_PHN1>
+    <ID>Telepon 1</ID>
+    <EN>Phone 1</EN>
+  </CP1_PHN1>
+
+  <CP1_PHN2>
+    <ID>Telepon 2</ID>
+    <EN>Phone 2</EN>
+  </CP1_PHN2>
+
+  <CP1_MAIL>
+    <ID>Email</ID>
+    <EN>Email</EN>
+  </CP1_MAIL>
+
+  <CP1_WEBSITE>
+    <ID>Website</ID>
+    <EN>Website</EN>
+  </CP1_WEBSITE>
+
+  <CP2_NM>
+    <ID>Nama</ID>
+    <EN>Name</EN>
+  </CP2_NM>
+
+  <CP2_PHN1>
+    <ID>Telepon 1</ID>
+    <EN>Phone 1</EN>
+  </CP2_PHN1>
+
+  <CP2_PHN2>
+    <ID>Telepon 2</ID>
+    <EN>Phone 2</EN>
+  </CP2_PHN2>
+
+  <CP2_MAIL>
+    <ID>Email</ID>
+    <EN>Email</EN>
+  </CP2_MAIL>
+
+  <CP2_WEBSITE>
+    <ID>Website</ID>
+    <EN>Website</EN>
+  </CP2_WEBSITE>
+
+  <NOTES>
+    <ID>Notes</ID>
+    <EN>Catatan</EN>
+  </NOTES>
+
+</XML_LANGUAGE>

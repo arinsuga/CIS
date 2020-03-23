@@ -1,0 +1,185 @@
+﻿
+/*
+================================================
+CSS Reset : By Eric Mayer
+================================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+	height: 100%;
+}
+body {
+    background-color: #D7DFE2;
+    margin:0px;
+    padding:0px;
+    font: 12px  verdana, arial, helvetica;
+    color: #416271;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+
+/*
+================================================
+CSS Layout
+================================================
+*/
+#CompanyLogo
+{
+    margin-left:5px;
+}
+#CompanyLogo img
+{
+    height:70px;
+    width:120px;
+}
+#Page {
+    width:1024px;
+    height:auto;
+    margin:auto;
+    background-color:#FFFFFF;
+/*
+	margin: 0 auto;
+	width: 1024px;
+*/
+}
+#PageHeader{
+width:1024px;
+height:auto;
+margin:auto;
+}
+#PageNavigation {
+/*
+width:1024px;
+height:30px;
+clear:both;
+background: #416271;
+background:url(images/green_box_bg.gif) no-repeat left #50a842; background-position:50px 0px;
+*/
+}
+#PageContent {
+    width:1024px;
+    min-height: 738px;
+}
+#PageFooter 
+{
+    color:#fff;
+    margin-bottom:0px;
+    clear: both;
+    height:30px;
+    text-align:center;
+    background:url(images/FooterBG.png) repeat-x left transparent; background-position:50px 0px;
+}
+/*
+=====================================================================
+Style PAGINATION
+=====================================================================
+*/
+div.Pagination
+{
+    padding:5px;
+    margin:5px;
+    background-color:#F1F1F1;
+    border:solid 1px #E5E5E5;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+div.Pagination input[type=text]
+{
+    width:30px;
+}
+div.Pagination input[type=button]
+{
+        cursor:pointer;
+        -moz-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        box-shadow:inset 0px 1px 0px 0px #ffe0b5;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fbb450), color-stop(1, #f89306));
+        background:-moz-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-webkit-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-o-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:-ms-linear-gradient(top, #fbb450 5%, #f89306 100%);
+        background:linear-gradient(to bottom, #fbb450 5%, #f89306 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89306',GradientType=0);
+        
+        background-color:#fbb450;
+        
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        
+        border:1px solid #c97e1c;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:12px;
+        font-weight:bold;
+        padding:2px 11px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #8f7f24;
+}
+div.Pagination input[type=button]:hover
+{
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f89306), color-stop(1, #fbb450));
+        background:-moz-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-webkit-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-o-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:-ms-linear-gradient(top, #f89306 5%, #fbb450 100%);
+        background:linear-gradient(to bottom, #f89306 5%, #fbb450 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f89306', endColorstr='#fbb450',GradientType=0);
+        
+        background-color:#f89306;
+}

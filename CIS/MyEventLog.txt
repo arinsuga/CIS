@@ -1,0 +1,8 @@
+﻿[10/10/2013 10:22:33] : Before create voHCISResCRUD
+[10/10/2013 10:22:34] : After create voHCISResCRUD
+[10/10/2013 10:22:34] : Before doCRUDNew..
+[10/10/2013 10:22:34] : ExecuteNonQuery: Connection property has not been initialized.
+[10/10/2013 10:24:23] : ExecuteNonQuery: Connection property has not been initialized.
+[10/10/2013 10:25:24] : ExecuteNonQuery: Connection property has not been initialized.
+[10/10/2013 10:40:15] : ExecuteNonQuery: Connection property has not been initialized.
+[10/10/2013 10:41:23] : ExecuteNonQuery: Connection property has not been initialized.
